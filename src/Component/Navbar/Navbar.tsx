@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
-const Navber = () => {
+const Navbar = () => {
   return (
     <div>
       <div className="navbar bg-base-100  border-b-2 border-gray-200 pb-5 p-5">
@@ -89,4 +89,4 @@ const Navber = () => {
   );
 };
 
-export default Navber;
+export default Navbar;
