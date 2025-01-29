@@ -1,11 +1,5 @@
-import Navber from "../../Component/Navber/Navber";
-
 const Home = () => {
-  return (
-    <div>
-      <Navber></Navber>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Home;

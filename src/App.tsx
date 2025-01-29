@@ -1,19 +1,9 @@
+import { RouterProvider } from "react-router";
 import "./App.css";
+import { router } from "./Component/Router/Router";
 
 function App() {
-  return (
-    <>
-      <h1 className="text-3xl">hr</h1>
-      <h6>hr</h6>
-      <button className="btn">Button</button>
-      <button className="btn btn-neutral">Neutral</button>
-      <button className="btn btn-primary">Primary</button>
-      <button className="btn btn-secondary">Secondary</button>
-      <button className="btn btn-accent">Accent</button>
-      <button className="btn btn-ghost">Ghost</button>
-      <button className="btn btn-link">Link</button>
-    </>
-  );
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
