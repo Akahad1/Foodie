@@ -40,7 +40,7 @@ const Navbar = () => {
                 <Link to="/">Contact</Link>
               </li>
               <li>
-                <Link to="/">About us</Link>
+                <Link to="/about">About us</Link>
               </li>
             </ul>
           </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link className="font-sans text-lg mr-3" to="/">
+              <Link className="font-sans text-lg mr-3" to="/about">
                 About us
               </Link>
             </li>
