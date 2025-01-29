@@ -19,7 +19,7 @@ const Categories = () => {
     { id: 6, name: "Chocolate", image: Chocolate },
   ];
   return (
-    <div className="lg:mr-15 lg:ml-15 mb-10 mr-3 ml-3 w-full">
+    <div className="lg:mr-15 lg:ml-15 mb-10 mr-3 ml-3 w-full mt-20">
       <div className="flex lg:justify-between">
         <p className="font-sans font-bold text-4xl">Categories</p>
         <button className="btn bg-[#E7FAFE] lg:mr-32">
