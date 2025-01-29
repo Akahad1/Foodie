@@ -3,7 +3,7 @@ import Vegan from "../../../public/Images/image 20.png";
 import Meat from "../../../public/Images/image 21.png";
 import Dessert from "../../../public/Images/image 22.png";
 import Lunch from "../../../public/Images/image 23.png";
-import Chocolate from "../../../public/Images/image 24.png";
+
 interface TItem {
   id: number;
   name: string;
@@ -16,18 +16,17 @@ const Categories = () => {
     { id: 3, name: "Meat", image: Meat },
     { id: 4, name: "Dessert", image: Dessert },
     { id: 5, name: "Lunch", image: Lunch },
-    { id: 6, name: "Chocolate", image: Chocolate },
   ];
   return (
-    <div className="lg:mr-15 lg:ml-15 mb-10 mr-3 ml-3 w-full mt-20">
-      <div className="flex lg:justify-between">
-        <p className="font-sans font-bold text-4xl">Categories</p>
-        <button className="btn bg-[#E7FAFE] lg:mr-32">
+    <div className="lg:mr-20 lg:ml-20 mr-3 ml-3 mb-10  w-full mt-20">
+      <div className="flex justify-between">
+        <p className="font-sans font-bold lg:text-4xl  text-2xl">Categories</p>
+        <button className="btn bg-[#E7FAFE] lg:mr-[160px] md:mr-8 mr-4">
           View All Categories
         </button>
       </div>
 
-      <div className="grid lg:grid-cols-6 grid-cols-3 gap-4">
+      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 ml-8 md:ml-14 lg:ml-0 lg:gap-2 gap-4">
         {items.map((item: TItem) => (
           <div
             className="mt-10 shadow shadow-[#7082461A] w-32 p-2 rounded-2xl"

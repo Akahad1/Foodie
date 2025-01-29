@@ -2,8 +2,8 @@ import img1 from "../../../public/Images/baked-chicken-wings-asian-style-tomatoe
 // import badge from "../../../public/Images/Badge.png";
 const Banner = () => {
   return (
-    <div className="lg:mr-15 lg:ml-15 mb-10 mr-3 ml-3">
-      <div className="flex flex-col md:flex-row items-center bg-blue-100  rounded-2xl shadow-lg   border border-blue-200 w-full mt-10 lg:h-[640px]">
+    <div className="lg:mr-32 lg:ml-20  mb-10 mr-3 ml-3 md:mr-2 md:ml-0">
+      <div className="flex flex-col md:flex-row items-center bg-blue-100  rounded-2xl shadow-lg   border border-blue-200 w-full mt-10 lg:h-[540px]">
         {/* Text Content */}
         <div className="md:w-1/2 p-4 lg:p-10">
           <span className="bg-white px-3 py-1 rounded-full shadow text-sm font-semibold">
@@ -52,7 +52,7 @@ const Banner = () => {
         <div className="md:w-1/2 flex justify-center relative">
           <img
             src={img1}
-            className="rounded-lg lg:h-[640px] mr-[-60px]"
+            className="rounded-lg lg:h-[540px] lg:w-full lg:mr-[-100px]"
             alt="Chicken Wings"
           />
 
